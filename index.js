@@ -4,7 +4,7 @@ function Scooter(year, color, model) {
   this.model = model
 }
 
-const driver = (name, age, experience) => {
+const Friver = (name, age, experience) => {
   this.name = name
   this.age = age
   this.experience = experience
