@@ -12,4 +12,4 @@ function Driver(name, age, experience){
   console.log(this)
 }
 
-Driver('h', 5, 3)
+Driver('h', 5, 3).call({})
