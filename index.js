@@ -5,10 +5,11 @@ function Scooter(year, color, model) {
 }
 
 const Driver = (name, age, experience) => {
-  console.log(this)
+  
   this.name = name
   this.age = age
   this.experience = experience
+  console.log(this)
 }
 
 Driver('h', 5, 3)
