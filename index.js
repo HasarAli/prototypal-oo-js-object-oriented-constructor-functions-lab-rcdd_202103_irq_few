@@ -11,4 +11,4 @@ const Driver = (name, age, experience) => {
   this.experience = experience
 }
 
-new Driver('h', 5, 3)
+Driver('h', 5, 3)
