@@ -5,11 +5,9 @@ function Scooter(year, color, model) {
 }
 
 function Driver(name, age, experience){
-  
   this.name = name
   this.age = age
   this.experience = experience
-  console.log(this)
 }
 
 new Driver('h', 5, 3)
