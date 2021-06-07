@@ -14,5 +14,3 @@ function PickupLocation(address, city) {
   this.address =address
   this.city = city
 }
-
-new Driver('h', 5, 3)
